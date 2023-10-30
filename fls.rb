@@ -1,4 +1,4 @@
-class FLS < Formula
+class Fls < Formula
     desc "FLS"
     homepage "https://docs.langstream.ai/"
     url "https://github.com/LangStream/langstream/releases/download/v0.3.1/langstream-cli-0.3.1.zip"
