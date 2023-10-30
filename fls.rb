@@ -5,6 +5,7 @@ class Fls < Formula
   
     def install
         libexec.install Dir["*"]
-        bin.install_symlink libexec/"bin/langstream"
+        mv libexec/"bin/langstream", libexec/"bin/fls"
+        bin.install_symlink libexec/"bin/fls"
     end  
   end
